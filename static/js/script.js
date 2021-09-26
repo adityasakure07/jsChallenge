@@ -27,3 +27,6 @@ function generateImage(){
     img.src= "./static/image/pexels-photo.jpg"
     document.getElementById('imgcontainer').appendChild(img);
 }
+
+
+//lets start challenge 3
