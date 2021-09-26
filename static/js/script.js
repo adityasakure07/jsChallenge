@@ -18,6 +18,6 @@ function ageInDays() {
 }
 
 function reset(){
-    document.getElementById('flex-box-result').remove();
+    document.getElementById('ageinDays').remove();
 }
 
