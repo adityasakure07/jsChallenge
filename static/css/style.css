@@ -1,0 +1,29 @@
+
+
+.container-1{
+
+    display: flex;
+    /* width: 50%; */
+    border: black 1px solid;
+    margin: 0 auto;
+    flex-direction: column; 
+    width: 75%;
+    text-align: center;
+/*     
+    align-items: center; */
+    
+} 
+.flex-box-container-1{
+    
+    display: flex;
+    border: black 1px solid;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+   
+}
