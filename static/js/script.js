@@ -9,7 +9,7 @@ function ageInDays() {
 
     var h1 = document.createElement('h1');
     h1.setAttribute('id','ageinDays');
-    h1.setAttribute('style',red);
+  
     h1.appendChild(ageText);
     document.getElementById('flex-box-result').appendChild(h1);
 
@@ -21,3 +21,9 @@ function reset(){
     document.getElementById('ageinDays').remove();
 }
 
+function generateImage(){
+    var img = document.createElement('img');
+    // img.setAttribute("src","./static/image/pexels-photo.jpg")
+    img.src= "./static/image/pexels-photo.jpg"
+    document.getElementById('imgcontainer').appendChild(img);
+}

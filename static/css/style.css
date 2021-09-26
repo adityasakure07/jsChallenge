@@ -1,12 +1,12 @@
 
 
-.container-1{
+.container-1,.container-2{
 
-    display: flex;
+    /* display: flex; */
     /* width: 50%; */
     border: black 1px solid;
     margin: 0 auto;
-    flex-direction: column; 
+    /* flex-direction: column;  */
     width: 75%;
     text-align: center;
 /*     
@@ -26,4 +26,20 @@
 .flex-box-container-1 div{
     padding: 10px;
    
+}
+
+.flex-box-container-2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+    margin: 10px;
+    justify-content: space-around;
+   
+}
+
+.flex-box-container-2 img{
+    
+    padding: 10px;
+  
 }
