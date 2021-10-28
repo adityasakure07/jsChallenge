@@ -11,13 +11,13 @@ const students = [
   },
 ];
 
-function addStudent(student){
+function addStudent(student,callback){
     setTimeout(
         ()=>{
             students.push(student);
     console.log('student Added');
-            getStudents();
-},5000
+            callback();
+},2000
 
     )
     
@@ -34,5 +34,5 @@ function getStudents() {
   },2000);
 }
 
-addStudent({name:'kunal',subject:'lol'});
-getStudents();
+addStudent({name:'kunal',subject:'lol'},getStudents);
+// getStudents();
